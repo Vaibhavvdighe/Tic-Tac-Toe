@@ -1,0 +1,120 @@
+body{
+    margin-top: 0%;
+    background-color: #212121;
+    color: aliceblue;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.head {
+    margin: 0 auto;
+    width:52%;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+}
+
+.note {
+    color: grey;
+}
+
+h1,h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    height: 60px;
+    margin: auto;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    height: 70px;
+    color:black;;
+    background-color:white;
+    cursor:pointer;
+}
+
+.board {
+    margin: auto;
+    height:450px;
+    width:450px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridCell {
+    height: 150px;
+    width: 150px;
+    border: solid 6px #212121;
+    text-align: center;
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 120px;
+    font-weight:bolder;
+}
+
+.winnerText{
+    margin: auto;
+    position :fixed;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%, -50%);
+    padding : 20px;
+    border-radius : 10px;
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    Color : #ffffff;
+    background-color: rgb(0, 209, 14);
+    /* background-color : rgb(104, 185, 252); */
+}
+
+.StartOver {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color:rgb(104, 185, 252);
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.ViewGame {
+    height: 30px;
+    width:100px;
+    text-align: center;
+    background-color: rgb(104, 185, 252);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Options {
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    z-index: 1;
+}
+
+.StartOver:hover{
+    background-color: rgb(0, 125, 226);
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.ViewGame:hover{
+    background-color: rgb(0, 125, 226);
+    font-weight: bold;
+    cursor:pointer;
+}
